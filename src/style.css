@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css?family=Exo+2|Quantico");
+
+.titleApp {
+  font-size: 2vw;
+  margin-left: 1vw;
+  margin-top: 2vw;
+}
+.card {
+  width: 38%;
+  height: 30%;
+  background-image: url("https://www.wallpaperup.com/uploads/wallpapers/2013/03/21/56144/a733f9ee07a3e08f0047ab2b68d6568c-700.jpg");
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  background-size: cover;
+  margin-top: 3vw;
+  position: relative;
+  margin-left: 5vw;
+}
+
+.title {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.2vw;
+  font-weight: 800;
+  margin-top: 0;
+  padding-top: 5%;
+  padding-left: 45%;
+}
+.puce {
+  width: 4vw;
+  border-radius: 1vw;
+}
+.card-content {
+  padding-left: 2.4vw;
+}
+
+.number {
+  background-color: #2d862d;
+  opacity: 0.7;
+  width: fit-content;
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
+}
+.number {
+  color: yellow;
+  font-size: 2.2vw;
+  font-family: "quantico";
+  margin-bottom: 0;
+}
+span {
+  display: block;
+}
+
+.card-information {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  align-items: flex-end;
+  width: 70%;
+  line-height: 1.5vw;
+}
+
+.card-validity {
+  display: flex;
+  align-items: flex-end;
+}
+
+.fleche {
+  width: 1vw;
+  height: 1vw;
+}
+
+.validthru {
+  display: flex;
+  align-items: center;
+  line-height: 0.9vw;
+}
+
+.valid,
+.thru,
+.date-letter {
+  font-size: 0.8vw;
+  padding: 0;
+  margin: 0;
+}
+
+.date-number {
+  font-size: 2.4vw;
+  font-weight: bold;
+  padding-top: 0;
+}
+.card-ref {
+  font-size: 2.4vw;
+  font-weight: bold;
+}
+
+.card-type {
+  color: white;
+  font-weight: bold;
+  font-size: 2vw;
+}
+
+.mastercard {
+  width: 6.5vw;
+  position: absolute;
+  bottom: 2vw;
+  right: 2vw;
+}
+
+.inputDiv {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2vw;
+}
+.inputDiv input {
+  height: 2vw;
+  margin-top: 1vw;
+  width: 20vw;
+  font-size: 1.6vw;
+  font-weight: bold;
+}
+
+.cardNextInput {
+  display: flex;
+  align-items: center;
+}
